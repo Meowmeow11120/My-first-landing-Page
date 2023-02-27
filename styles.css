@@ -1,0 +1,50 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0% 5%;
+    min-height: 100vh;
+}
+
+.nav-bar,
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    margin: 10% 0;
+}
+
+.nav-logo {
+    width: 50px;
+    border-radius: 100%;
+}
+
+
+
+.right-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.cool-cat {
+    object-fit: fill;
+    width: 400px;
+    height: 215px;
+}
+
+.block {
+    display: flex;
+    flex: 1;
+}
+
+.block img {
+    width: 100px;
+    height: 100px;
+}
