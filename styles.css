@@ -73,6 +73,10 @@ nav {
 
 }
 
+.subtext {
+    padding: 10px 0;
+}
+
 button {
     font-weight: bold;
     color: #4a5f68;
@@ -83,7 +87,8 @@ button {
     border-radius: 5px;
 
 }
-button:hover{
+
+button:hover {
     background-color: #4a5f6828;
 }
 
@@ -98,13 +103,13 @@ button:hover{
 .secondary-text {
     font-size: 1rem;
     background-color: #A0B9BF;
-    padding-bottom: 6.25rem;
+    padding-bottom: 4rem;
 }
 
 .secondary {
     text-align: center;
     font-size: 1.5rem;
-    padding: 30px 0;
+    padding: 40px 0px 60px  0px;
 }
 
 .block {
@@ -117,7 +122,7 @@ button:hover{
 .block img {
     display: flex;
     width: 100%;
-    max-height: 200px;
+    max-height: 150px;
     border-radius: 10px;
     flex: 1;
 }
@@ -132,14 +137,65 @@ button:hover{
 
 /*quote*/
 .quote-box {
+    background-color: #9DACB2;
+    text-align: center;
     padding: 6.25rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #9DACB2;
 }
 
 .quote {
-    width: 40%;
+    max-width: 800px;
+}
+
+
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+/* bottom blcok*/
+.adblock {
+    background-color: #A0B9BF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 100px;
+}
+
+
+.adtext {
+    max-width: 700px;
+}
+
+.adheader {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.smalltext {
+    padding: 10px 250px 0 60px;
+}
+
+.bottombutton {
+    height: 30px;
+    width: 90px;
+    color: rgb(54, 53, 53);
+    background-color: #949BA0;
+    align-self: center;
+}
+
+.bottombutton:hover {
+    background-color: #81c5ce;
+    transition: 500ms;
+}
+
+button {
+    cursor: pointer;
 }
